@@ -12,7 +12,7 @@
 
 <style scoped>
   .top-header {
-    height: 100px;
+    height: 185px;
     background-image: url("../assets/title.jpg");
     background-repeat: no-repeat;
     background-size:100% 100%;

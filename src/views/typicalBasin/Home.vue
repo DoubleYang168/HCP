@@ -107,8 +107,8 @@
     height: 100%;
   }
 
-  #BasemapToggle {
-  }
+  /* #BasemapToggle {
+  } */
 
   .main {
     padding: 0;

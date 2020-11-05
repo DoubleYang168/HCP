@@ -42,9 +42,10 @@ const vueConfig = {
         modifyVars: {
           // less vars，customize ant design theme
 
-          // 'primary-color': '#F5222D',
-          // 'link-color': '#F5222D',
-          // 'border-radius-base': '4px'
+          'primary-color': '#87CEFA',//'#F5222D',//全局主色
+          'link-color': '#3a91db',//'#F5222D',//链接色
+          'border-radius-base': '5px',//组件 浮层圆角
+          'font-family':'Microsoft YaHei'
         },
         // do not remove this line
         javascriptEnabled: true

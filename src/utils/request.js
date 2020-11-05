@@ -7,7 +7,7 @@ export const baseURL = IS_DEV ? '' : process.env.VUE_APP_BASE_API;
 
 // 创建 axios 实例
 const service = axios.create({
-  baseURL: '', // api base_url
+  baseURL: 'http://nj.transwarp.club:8085/', // api base_url
   timeout: 6000 // 请求超时时间
 })
 

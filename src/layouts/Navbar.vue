@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-menu v-model="current" mode="horizontal" theme="light">
+    <a-menu v-model="current" mode="horizontal" theme="light" class="basin-menu">
       <a-menu-item key="typicalBasin" @click="jumpTo('basin')">
         典型流域
       </a-menu-item>
@@ -51,5 +51,13 @@
 </script>
 
 <style scoped>
-
+.basin-menu {
+  border-radius: 2px;
+  background: rgb(53, 130, 196) !important;
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
 </style>

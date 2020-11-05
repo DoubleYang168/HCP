@@ -6,24 +6,29 @@
   <div class="layout">
     <top-header></top-header>
     <navbar></navbar>
-    <router-view style="height: calc(100% - 148px)"></router-view>
+    <router-view
+      style="height: calc(100% - 148px); width: 80% !important; margin: 0 auto"
+    >
+    </router-view>
+    <!-- <footer></footer> -->
   </div>
 </template>
 
 <script>
-  import TopHeader from './TopHeader'
-  import Navbar from "./Navbar";
+import TopHeader from "./TopHeader";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
-  export default {
-    components: {Navbar, TopHeader},
-    mounted() {
-      console.log('UserLayout mounted.')
-    }
-  }
+export default {
+  components: { Navbar, TopHeader, Footer },
+  mounted() {
+    console.log("UserLayout mounted.");
+  },
+};
 </script>
 
 <style>
-  .layout {
-    height: 100%;
-  }
+.layout {
+  height: 100%;
+}
 </style>

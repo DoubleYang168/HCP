@@ -28,17 +28,16 @@
 </script>
 
 <style scoped>
-  p {
-    text-indent: 2em;
-    line-height: 150%;
-    font-size: 24px;
-  }
-
-  .header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-  }
+.header {
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 5px;
+}
+p {
+  line-height: 150%;
+  font-size: 15px;
+  text-indent: 30px;
+}
 
   .title {
     font-weight: bold;

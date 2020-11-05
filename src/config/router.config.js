@@ -56,7 +56,7 @@ export const constantRouterMap = [
         path: 'data',
         name: 'data',
         component: () => import(/* webpackChunkName: "user" */ '@/views/data/Index')
-      }
+      },
     ]
   }
 
