@@ -7,7 +7,7 @@
         :style="{ overflow: 'auto', height: '100%', background: '#fff' }"
       >
         <a-menu
-          style="height: 100%"
+          style="height: 100%;background: #ecebeb;"
           :default-selected-keys="['1']"
           :open-keys.sync="openKeys"
           mode="inline"

@@ -6,6 +6,7 @@
         :style="{ overflow: 'auto', height: '100%', background: '#fff' }"
       >
         <a-menu
+          style="background: #ecebeb; height: 100%"
           :default-selected-keys="['1']"
           mode="inline"
           @click="handleClick"

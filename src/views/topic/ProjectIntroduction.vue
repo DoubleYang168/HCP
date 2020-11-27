@@ -19,14 +19,22 @@
 </script>
 
 <style scoped>
-.header {
-  text-align: center;
-  font-size: 22px;
-  padding: 10px 5px;
+.header{
+    font-size: 22px;
+    text-align: center;
+    line-height: 52px;
+    font-family: '微软雅黑';   
+    color: #333;
+    margin: 0px 0px 10px;
 }
 p {
-  line-height: 150%;
-  font-size: 15px;
-  text-indent: 30px;
+    text-align:justify;
+    word-break: break-all;
+    line-height: 31px;
+    text-indent: 2em;
+    font-family: '微软雅黑';   
+    font-size: 16px;
+    color: #333;
+    margin: 0px 0px 15px;
 }
 </style>

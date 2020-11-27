@@ -3,7 +3,7 @@
     <a-layout style="height: 100%; padding: 8px">
       <a-layout-sider width="180" style="background: #fff; height: 100%">
         <a-menu
-          style="width: 180px; height: 100%"
+          style="width: 180px; height: 100%;background: #ecebeb;"
           :default-selected-keys="['dataModel']"
           mode="inline"
           @click="handleClick"

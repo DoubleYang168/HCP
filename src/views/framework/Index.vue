@@ -4,7 +4,7 @@
       <!-- 左侧menu -->
       <a-layout-sider width="180" style="background: #fff; height: 100%">
         <a-menu
-          style="width: 180px; height: 100%"
+          style="width: 180px; height: 100%;background: #ecebeb;"
           :default-selected-keys="['shortTermModel']"
           mode="inline"
           @click="handleClick"

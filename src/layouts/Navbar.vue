@@ -1,6 +1,7 @@
 <template>
   <div>
     <a-menu v-model="current" mode="horizontal" theme="light" class="basin-menu">
+      <a-icon type="home" class="home" @click="jumpTo('')" />
       <a-menu-item key="typicalBasin" @click="jumpTo('basin')">
         典型流域
       </a-menu-item>
@@ -59,5 +60,9 @@
   text-align: center;
   font-size: 18px;
   color: white;
+  min-width: 1216px;
+}
+.home{
+  margin-right: 40px;
 }
 </style>

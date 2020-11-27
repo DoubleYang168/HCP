@@ -7,10 +7,10 @@
     <top-header></top-header>
     <navbar></navbar>
     <router-view
-      style="height: calc(100% - 148px); width: 80% !important; margin: 0 auto"
+      style="height: calc(100% - 148px); width: 80% !important; margin: 0 auto; min-width: 1216px;"
     >
     </router-view>
-    <!-- <footer></footer> -->
+    <Footer></Footer>
   </div>
 </template>
 

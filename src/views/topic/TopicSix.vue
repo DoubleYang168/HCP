@@ -16,7 +16,6 @@
     <p>
       水利工程群模块：基于课题 3 中通过降雨径流实验和宽频谱同位素技术相结合方法揭示的水利工程群影响下水文过程扰动和累积效应及水资源时空再分配规律，建立地表
       带门槛多水库叠加的“线性水库”串联汇流组合机制，提出水库塘坝调蓄下多阻断马斯京根法和圣维南方程相结合的汇流算法；改进达西定律、曼宁公式模拟每个“线性水库”内土壤水侧向流/地下水流及坡面汇流，建立考虑水库塘坝库容动态统计的水利工程群扰动下河道汇流模块。
-
     </p>
   </div>
 </template>
@@ -28,19 +27,26 @@
 </script>
 
 <style scoped>
-.header {
-  text-align: center;
-  font-size: 22px;
-  padding: 10px 5px;
+.header{
+    font-size: 22px;
+    text-align: center;
+    line-height: 52px;
+    font-family: '微软雅黑';   
+    color: #333;
+    margin: 0px 0px 10px;
 }
 p {
-  line-height: 150%;
-  font-size: 15px;
-  text-indent: 30px;
+    text-align:justify;
+    word-break: break-all;
+    line-height: 31px;
+    text-indent: 2em;
+    font-family: '微软雅黑';   
+    font-size: 16px;
+    color: #333;
+    margin: 0px 0px 15px;
 }
-
   .title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
   }
 </style>

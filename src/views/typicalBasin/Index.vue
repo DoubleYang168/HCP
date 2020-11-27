@@ -22,13 +22,13 @@
     <a-layout style="height: 100%; padding: 8px">
       <a-layout-sider width="180" style="background: #fff; height: 100%">
         <a-menu
-          style="width: 180px; height: 100%;"
+          style="width: 180px; height: 100%;background: #ecebeb;height: 100%;"
           :default-selected-keys="['dataModel']"
           mode="inline"
           @click="handleClick"
         >
           <template v-for="item in menuList">
-            <a-menu-item :key="item.value">
+            <a-menu-item :key="item.value" >
               {{ item.name }}
             </a-menu-item>
           </template>
@@ -51,12 +51,7 @@
         </a-layout-content>
       </a-layout>
     </a-layout>
-    <a-layout >
-      <a-layout-footer class="footer"
-        >Copyright @ 河海大学水文水资源学院 版权所有 联系电话：（025）83786621
-        EMAIL信箱：shxy@hhu.edu.cn</a-layout-footer
-      >
-    </a-layout>
+    
   </div>
 </template>
 
@@ -115,15 +110,9 @@ export default {
 </script>
 
 <style scoped>
-.footer {
-  width: 100%;
-  height: 48px;
-  padding: 0;
-  text-align: center;
-  line-height: 48px;
-  color: rgba(0, 0, 0, 0.65);
-  font-size: 14px;
-  background: rgb(53, 130, 196);
-  border-radius: 2px;
-}
+
+/* li.ant-menu-item.ant-menu-item-selected{
+  color: red;
+  background: blue;
+} */
 </style>
